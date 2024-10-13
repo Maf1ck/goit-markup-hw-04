@@ -13,6 +13,21 @@ body{
 footer{
     background-color: #2e2f42;
 }
+img{
+    display: block;
+}
+.main-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-div{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
 .adress-one{
     font-style: normal;
 }
@@ -23,12 +38,24 @@ footer{
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5 
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 .logo-first-letters:hover{
     color: #404bbf;
 }
+.ul-header{
+    display: flex;
+    gap: 40px;
 
+}
+.li-header{
+    padding: 24px 0;
+}
+.ul-adress{
+    display: flex;
+    gap: 40px;
+}
 .second-logo-letters {
     color: #2e2f42;
 }
