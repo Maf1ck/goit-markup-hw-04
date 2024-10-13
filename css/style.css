@@ -16,10 +16,15 @@ footer{
 img{
     display: block;
 }
+:root {
+    --text-color: #F4F4FD;
+    --button-bg-color: #4d5ae5;
+}
 .main-header{
     border-bottom: 1px solid #e7e9fc;
 }
 .header-div{
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
@@ -50,7 +55,7 @@ img{
 
 }
 .li-header{
-    padding: 24px 0;
+    padding: 24px 0 24px 0;
 }
 .ul-adress{
     display: flex;
@@ -95,9 +100,11 @@ img{
 }
 .section-one{
     background-color: #2e2f42;
+    padding:  188px 0 188px;
 
 }
 .title-hone {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -105,8 +112,13 @@ img{
     color: #ffffff;
 }
 .title-button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: var(--button-bg-color);
+    border-radius: 4px;
+    cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -196,9 +208,7 @@ img{
 .footer-second-letter{
     color: #f4f4fd;
 }
-:root {
-    --text-color: #F4F4FD;
-}
+
 .p-footer{
     line-height: 1.5;
     color: var(--text-color);
