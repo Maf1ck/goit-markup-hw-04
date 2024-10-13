@@ -37,7 +37,8 @@ img{
     font-style: normal;
 }
 .logo-first-letters {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -112,20 +113,19 @@ img{
     margin: -1px;
     border: 0;
     padding: 0;
-}
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+.title-hone {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 .title-button {
     display: block;
     min-width: 169px;
