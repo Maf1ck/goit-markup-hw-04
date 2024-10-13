@@ -55,7 +55,7 @@ img{
 
 }
 .li-header{
-    padding: 24px 0 24px 0;
+    padding: 24px 0;
 }
 .ul-adress{
     display: flex;
@@ -112,6 +112,7 @@ img{
     color: #ffffff;
 }
 .title-button {
+    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -134,12 +135,23 @@ img{
     cursor: pointer;
     background-color: #404BBF;
 }
+.section-two{
+    padding: 120px 0;
+}
+.ul-section-two{
+    display: flex;
+    gap: 24px;
+}
+.li-section-two{
+    width: calc((100% - 72px) / 4);
+}
 .h-sectwo{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42;
+    margin-bottom: 8px;
 }
 .p-sectwo{
     font-size: 16px;
