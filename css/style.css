@@ -1,3 +1,12 @@
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -33,10 +42,12 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    align-items: center;
 }
 .header-nav{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .adress-one{
     font-style: normal;
@@ -59,6 +70,8 @@ img{
 .ul-header{
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding-left: 0;
 
 }
 .li-header{
@@ -74,6 +87,8 @@ img{
     color: #2e2f42;
 }
 .home-text {
+    margin: 0;
+    padding: 0;
     padding-top: 24px;
     padding-bottom: 24px;
     font-family: var(--font-family);
@@ -127,6 +142,8 @@ img{
     overflow: hidden;
   }
 .title-hone {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
@@ -135,6 +152,8 @@ img{
     color: #ffffff;
 }
 .title-button {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -256,7 +275,6 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 
 }
 .h-section-four {
