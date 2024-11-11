@@ -277,10 +277,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-=======
->>>>>>> 0eb092f44758f9184e4916bbbb6e4e397e492bdf
 }
 .a-svg-three:hover{
     background-color: #404bbf;
@@ -292,10 +289,7 @@ img{
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-<<<<<<< HEAD
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-=======
->>>>>>> 0eb092f44758f9184e4916bbbb6e4e397e492bdf
 }
 .div-img{
     padding: 32px 0;
@@ -316,12 +310,10 @@ img{
     letter-spacing: 0.02em;
     color:#434455;
 }
-<<<<<<< HEAD
+
 .svg-section-three{
     fill: #f4f4fd;
 }
-=======
->>>>>>> 0eb092f44758f9184e4916bbbb6e4e397e492bdf
 .section-four{
     padding-top: 120px;
     padding-bottom: 120px;
